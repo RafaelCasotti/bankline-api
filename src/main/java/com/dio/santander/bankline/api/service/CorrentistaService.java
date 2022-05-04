@@ -12,8 +12,8 @@ import com.dio.santander.bankline.api.repository.CorrentistaRepository;
 
 @Service
 public class CorrentistaService {
-	@Autowired
 	
+	@Autowired
 	private CorrentistaRepository repository;
 	
 	public void save(NovoCorrentista novoCorrentista) {
